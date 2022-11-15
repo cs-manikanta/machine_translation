@@ -18,7 +18,10 @@ if st.button('Translate'):
     result = trans.translate(input_text, src='en',dest = Target_Language).text
     st.write(result)
     
-st.write('Made by Mani')
+
+    
+
+ st.subheader('Made by Mani')
 
 
 
