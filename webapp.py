@@ -3,12 +3,9 @@ import streamlit as st
 import googletrans 
 from googletrans import Translator
 
-st.title('Made by Mani')
+st.title('Translator App')
 
-st.header('Translator App')
-
-
-st.subheader('Our machine will translate from English to Hindi.')
+st.header('Our translator will translate from English to language of your choice.')
 
 
 trans = Translator()
