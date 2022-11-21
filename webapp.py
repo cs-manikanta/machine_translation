@@ -11,11 +11,11 @@ trans = Translator()
 
 input_text = st.text_area('Enter your text', height = 100)
 
-Target_Language =st.selectbox('Select the target language' , ('Telugu','Hindi','Bengali','Gujarati','Kannada','Malayalam','Marathi','Odia','Punjabi','Tamil','Urdu','Arabic','German'))
+Target_Language =st.selectbox('Select the target language' , ('English''Telugu','Hindi','Bengali','Gujarati','Kannada','Malayalam','Marathi','Odia','Punjabi','Tamil','Urdu','Arabic','German'))
 st.write('You selected: ', Target_Language)
 
 if st.button('Translate'):
-    result = trans.translate(input_text, src='en',dest = Target_Language).text
+    result = trans.translate(input_text, src='de',dest = Target_Language).text
     st.write(result)
 
 
