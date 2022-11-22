@@ -15,7 +15,7 @@ Target_Language =st.selectbox('Select the target language' , ('English','Telugu'
 st.write('You selected: ', Target_Language)
 
 if st.button('Translate'):
-    result = trans.translate(input_text, src='de',dest = Target_Language).text
+    result = trans.translate(input_text, src='auto',dest = Target_Language).text
     st.write(result)
 
 
