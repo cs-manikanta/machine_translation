@@ -3,13 +3,7 @@ import pandas as pd
 from io import StringIO
 import googletrans 
 from googletrans import Translator
-from PIL import Image
 
-image = Image.open('cg_logo2.jpg')
-
-st.image(image, width = 200)
-
-# st.image(image, caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
 st.title('Translator')
 
 st.markdown('#### Translate from any language to any other language of your choice.')
